@@ -10,37 +10,38 @@ The raw sales data was stored in SQL Server, where complex SQL queries were used
 
 📊 Key Insights :-
 
-1) Data Processing (SQL Server)
+Data Processing (SQL Server) :
 
-    Data cleaning and formatting.
+Data cleaning and formatting.
 
-    Joining multiple tables (Sales, Products, Dates).
+Joining multiple tables (Sales, Products, Dates).
 
-    Calculating aggregated KPIs.
+Calculating aggregated KPIs.
 
-    Creating calculated columns for time-based insights.
+Creating calculated columns for time-based insights.
 
-2) Power BI Visualization
+Power BI Visualization :
 
-    KPI Cards – Total Sales, Orders, and Quantity Sold with MoM % change.
+KPI Cards – Total Sales, Orders, and Quantity Sold with MoM % change.
 
-    Sales Trend Analysis – Daily sales with average sales line.
+Sales Trend Analysis – Daily sales with average sales line.
 
-    Category & Product Breakdown – Bar charts showing top-performing categories and product types.
+Category & Product Breakdown – Bar charts showing top-performing categories and product types.
 
-    Store Location Performance – Location-wise sales and % change vs. last month.
+Store Location Performance – Location-wise sales and % change vs. last month.
 
-    Hourly Sales Heatmap – Identifies peak hours by day.
+Hourly Sales Heatmap – Identifies peak hours by day.
 
-    Weekend vs. Weekday Sales – Donut chart comparison.
+Weekend vs. Weekday Sales – Donut chart comparison.
 
-3) Complex DAX Functions such as:
+Complex DAX Functions such as :
 
-    CALCULATE() with IF() for conditional aggregations.
+CALCULATE() with IF() for conditional aggregations.
 
-    DISTINCTCOUNT() AND FORMAT() for formating and get unique values.
+DISTINCTCOUNT() AND FORMAT() for formating and get unique values.
 
-    Custom Tooltips on visuals to show detailed  information like daily sales, total orders, and quantity.
+Custom Tooltips on visuals to show detailed  information like daily sales, total orders, and quantity.
+
 
 🛠 Tools & Technologies Used :-
 
@@ -68,6 +69,13 @@ To identify top-performing product categories and product types.
 
 📸 Dashboard Screenshot :-
 
+Coffee Sales: https://github.com/Atul20000/Coffee-Shop-Sales/blob/main/Coffee%20Sales.png
 
+
+📌 Future Improvements :-
+
+By analyzing customer age, gender, and location, we can group customers into different segments. This will help in understanding buying behavior and creating personalized offers.
+
+Using historical data, we can build forecasting models to predict future sales trends.
 
 
